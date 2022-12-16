@@ -11,7 +11,7 @@ public class TestZipCodeWilmington {
         Instructors instructors = Instructors.getInstance();
         Students students = Students.getInstance();
 
-        Teacher teach = (Teacher) instructors.findById(1);
+        Educator teach = Educator.DOLIO;
 
         zcw.hostLecture(teach, 5.0);
         zcw.hostLecture(2, 2.0);

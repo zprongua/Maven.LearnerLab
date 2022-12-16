@@ -8,7 +8,7 @@ public class TestStudents {
     public void testStudents() {
         Students students = Students.getInstance();
 
-        for (Person s : students) {
+        for (Student s : students) {
             System.out.println(s.getName());
         }
 
